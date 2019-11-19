@@ -1,21 +1,21 @@
 let config = {
-  title: 'Gamers Assembly : Dev Front',
-  logo: `/static/img/logo-orange-100x100.png`,
-  description: 'Retrouvez la Gamers Assembly prochainement',
-  metaImagePath: `/static/img/logo-orange-200x200.png`,
-  gaTrackingId: 'UA-0000000-0',
+  title: 'Gamers Assembly : Occitanie Edition',
+  logo: `/static/img/logo_ga_oes.png`,
+  description: 'La Gamers Assembly Occitanie Edition aura lieu du ?? au ?? juin 2019 !',
+  metaImagePath: `/static/img/logo_ga_oes.png`,
+  gaTrackingId: 'UA-128777022-6',
   mainPartner: {
-    logo: '/static/img/charente-maritime.png',
-    url: 'https://bmagic.fr'
+    logo: '/static/img/logo-occitanie-238x106.png',
+    url: 'https://www.laregion.fr/'
   },
   home: {
-    hero: {
-      title: 'Gamers Assembly',
-      subtitle: 'Dev Front',
-      background: '/static/img/bg-blue-area.jpg'
-    },
-    banner: '/static/img/bg-banner-al2018.jpg',
-    twitterAccount: 'GamersAssembly',
+    // hero: {
+    //   title: 'Gamers Assembly',
+    //   subtitle: 'Dev Front',
+    //   background: '/static/img/bg-blue-area.jpg'
+    // },
+    banner: '/static/img/oes.jpg',
+    twitterAccount: 'OccitanieEsport',
     partners: {
       active: true,
       delay: 10,
@@ -24,7 +24,7 @@ let config = {
   },
   news: {
     title: 'Actualités',
-    description: 'Retrouvez toutes les actualités de la Gamers Assembly',
+    description: 'Retrouvez toutes les actualités de la Gamers Assembly Occitanie Edition',
     link: '/news'
   },
   partners: {
@@ -34,12 +34,12 @@ let config = {
   },
   tournaments: {
     title: 'Tournois',
-    description: 'Tous les tournois de la Gamers Assembly',
+    description: 'Tous les tournois de la Gamers Assembly Occitanie Edition',
     link: '/tournois'
   },
   info: {
-    title: 'Venir à la GA',
-    description: 'Toutes les informations sur cet évènement',
+    title: 'Infos pratiques',
+    description: 'Toutes les informations sur la Gamers Assembly Occitanie Edition',
     link: '/infos'
   },
   schedule: {
@@ -54,12 +54,12 @@ let config = {
   },
   tickets: {
     title: 'Billetterie',
-    description: 'Achetez vos places pour la Gamers Assembly',
+    description: 'Achetez vos places pour la Gamers Assembly Occitanie Edition',
     link: '/billetterie',
     pass: {
-      title: 'Pass "Manager/Accompagnateur"',
-      text: 'Pour obtenir des pass "Manager/Accompagnateur", les équipes inscrites aux tournois peuvent réaliser une demande via le lien ci-dessous.',
-      button: 'Obtenir un pass'
+      title: 'Pass Visiteur',
+      text: 'Pour acheter un pass "Visiteur Occitanie Esports" ou un pass "Visiteur ESL Pro League Occitanie", suivre le lien ci-dessous',
+      button: 'Acheter un billet visiteur'
     },
     minor: {
       title: 'Informations pour les mineurs',
@@ -74,17 +74,17 @@ let config = {
   },
   exhibitors: {
     title: 'Exposants',
-    description: 'Les exposants que vous pourrez retrouver à la Gamers Assembly',
+    description: 'Les exposants que vous pourrez retrouver à la Gamers Assembly Occitanie Edition',
     link: '/exposants'
   },
   family: {
     title: 'Espace Famille',
-    description: 'Les activités à faire en famille durant la Gamers Assembly',
+    description: 'Les activités à faire en famille durant la Gamers Assembly Occitanie Edition',
     link: '/espace-famille'
   },
   influencers: {
     title: 'VIPs',
-    description: 'Les personnalités qui seront présentes pour la Gamers Assembly',
+    description: 'Les personnalités qui seront présentes pour la Gamers Assembly Occitanie Edition',
     link: '/vips'
   },
   contact: {
@@ -92,7 +92,7 @@ let config = {
     pageId: 6
   },
   press: {
-    active: true,
+    active: false,
     pageId: 7
   },
   legals: {
@@ -100,7 +100,7 @@ let config = {
     pageId: 8
   },
   recruit: {
-    active: true,
+    active: false,
     title: 'Recrutement',
     description: 'Devenir bénévole pour la GAMERS ASSEMBLY, c\'est par ici !!!',
     formUrl: 'https://goo.gl/forms/84pHQfSp50RcuUel2'
@@ -108,9 +108,9 @@ let config = {
   social: {
     twitter: 'https://twitter.com/GamersAssembly',
     facebook: 'https://www.facebook.com/GamersAssembly',
-    twitch: 'https://www.flickr.com/photos/futurolan',
-    youtube: 'https://twitch.tv/gamers_assembly',
-    flickr: 'https://www.youtube.com/channel/UCbfhRIAsc4xdRACnDUwRfRw',
+    twitch: 'https://twitch.tv/gamers_assembly',
+    youtube: 'https://www.youtube.com/channel/UCbfhRIAsc4xdRACnDUwRfRw',
+    flickr: 'https://www.flickr.com/photos/futurolan',
     discord: 'https://discordapp.com/invite/gamersassembly'
   }
 }
