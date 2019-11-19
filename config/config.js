@@ -1,9 +1,9 @@
 let config = {
   title: 'Gamers Assembly : Occitanie Edition',
   logo: `/static/img/logo_ga_oes.png`,
-  description: 'La Gamers Assembly Occitanie Edition aura lieu du ?? au ?? juin 2019 !',
+  description: 'La Gamers Assembly Occitanie Edition aura lieu du 30 au 31 mai 2020 !',
   metaImagePath: `/static/img/logo_ga_oes.png`,
-  gaTrackingId: 'UA-128777022-6',
+  gaTrackingId: 'UA-128777022-10',
   mainPartner: {
     logo: '/static/img/logo-occitanie-238x106.png',
     url: 'https://www.laregion.fr/'
@@ -17,7 +17,7 @@ let config = {
     banner: '/static/img/oes.jpg',
     twitterAccount: 'OccitanieEsport',
     partners: {
-      active: true,
+      active: false,
       delay: 10,
       count: 6
     }
