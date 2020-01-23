@@ -1,4 +1,4 @@
-let config = {
+const config = {
   title: 'Gamers Assembly : Occitanie Edition',
   logo: `/static/img/logo_ga_oes.png`,
   description: 'La Gamers Assembly Occitanie Edition aura lieu du 30 au 31 mai 2020 !',
