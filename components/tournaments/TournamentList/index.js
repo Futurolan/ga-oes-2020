@@ -16,26 +16,29 @@ function TournamentList ({
   }
 
   if (nodeQuery && nodeQuery.entities && nodeQuery.entities.length > 0) {
-    return <div className='ga-tournament-list'>
-      <div className='columns is-multiline is-6  is-variable'>
-        {nodeQuery.entities.map((tournament) => (
-          <div className='column is-one-third' key={tournament.nid}>
-            <TournamentCard
-              nid={tournament.nid}
-              title={tournament.title}
-              url={tournament.url ? tournament.url.path : null}
-              imgMobileUrl={tournament.image ? tournament.image.mobile.url : tournament.game.node.image.mobile.url}
-              imgDesktopUrl={tournament.image ? tournament.image.desktop.url : tournament.game.node.image.desktop.url}
-              imgWidescreenUrl={tournament.image ? tournament.image.widescreen.url : tournament.game.node.image.widescreen.url}
-              imgFullhdUrl={tournament.image ? tournament.image.fullhd.url : tournament.game.node.image.fullhd.url}
-              current={tournament.reservedSlot + (tournament.weezevent.nodes.length > 0 ? tournament.weezevent.nodes[0].count : 0)}
-              size={tournament.size}
-              platform={tournament.platform}
-              pegi={tournament.game.node.pegi} />
-          </div>
-        ))}
+    return (
+      <div className='ga-tournament-list'>
+        <div className='columns is-multiline is-6  is-variable'>
+          {nodeQuery.entities.map((tournament) => (
+            <div className='column is-one-third' key={tournament.nid}>
+              <TournamentCard
+                nid={tournament.nid}
+                title={tournament.title}
+                url={tournament.url ? tournament.url.path : null}
+                imgMobileUrl={tournament.image ? tournament.image.mobile.url : tournament.game.node.image.mobile.url}
+                imgDesktopUrl={tournament.image ? tournament.image.desktop.url : tournament.game.node.image.desktop.url}
+                imgWidescreenUrl={tournament.image ? tournament.image.widescreen.url : tournament.game.node.image.widescreen.url}
+                imgFullhdUrl={tournament.image ? tournament.image.fullhd.url : tournament.game.node.image.fullhd.url}
+                current={tournament.reservedSlot + (tournament.weezevent.nodes.length > 0 ? tournament.weezevent.nodes[0].count : 0)}
+                size={tournament.size}
+                platform={tournament.platform}
+                pegi={tournament.game.node.pegi}
+              />
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    )
   }
   return <div className='notification'>Chargement des tournois en cours.</div>
 }

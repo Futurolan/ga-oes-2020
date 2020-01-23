@@ -21,28 +21,30 @@ function NewsContent ({ data: { loading, error, node } }) {
     // Fix sale tant que j'ai pas compris le soucis de cache ...
     const processedContent = node.content.processed.replace(new RegExp('src="/sites/default/files/inline-images/', 'g'), `src="${publicRuntimeConfig.BACKEND_API_URL}/sites/default/files/inline-images/`)
 
-    return <div className='ga-news-content'>
-      <Meta title={node.title} image={node.image.fullhd.url} description={node.description} />
+    return (
+      <div className='ga-news-content'>
+        <Meta title={node.title} image={node.image.fullhd.url} description={node.description} />
 
-      <h1 className='title title-line has-text-centered'><span>{node.title}</span></h1>
+        <h1 className='title title-line has-text-centered'><span>{node.title}</span></h1>
 
-      <figure className='image is-5by1'>
-        <img alt={`Image d'illustration de la news ${node.title}`} src={node.image.mobile.url} srcSet={`${node.image.mobile.url} 705w, ${node.image.desktop.url} 960w, ${node.image.widescreen.url} 1155w, ${node.image.fullhd.url} 1345w`} />
-      </figure>
+        <figure className='image is-5by1'>
+          <img alt={`Image d'illustration de la news ${node.title}`} src={node.image.mobile.url} srcSet={`${node.image.mobile.url} 705w, ${node.image.desktop.url} 960w, ${node.image.widescreen.url} 1155w, ${node.image.fullhd.url} 1345w`} />
+        </figure>
 
-      <div className='level'>
-        <div className='level-left'>
-          <div className='level-item'> Créé le&nbsp;<Moment unix format='DD/MM/YYYY à HH:SS'>{node.created}</Moment>, par {node.entityOwner.name}</div>
+        <div className='level'>
+          <div className='level-left'>
+            <div className='level-item'> Créé le&nbsp;<Moment unix format='DD/MM/YYYY à HH:SS'>{node.created}</Moment>, par {node.entityOwner.name}</div>
+          </div>
+          <div className='level-right'>
+            <SocialNetworkShare title={node.title} />
+          </div>
         </div>
-        <div className='level-right' >
-          <SocialNetworkShare title={node.title} />
+        <div className='box content'>
+          <div dangerouslySetInnerHTML={{ __html: processedContent }} />
         </div>
-      </div>
-      <div className='box content' >
-        <div dangerouslySetInnerHTML={{ __html: processedContent }} />
-      </div>
 
-    </div>
+      </div>
+    )
   }
   return <div className='notification'>Chargement de l'actualité en cours</div>
 }
