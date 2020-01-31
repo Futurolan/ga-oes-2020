@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 const menu = [
   { type: 'config', id: 'news' },
   { type: 'page', title: 'Road to Occitanie', id: 199603, link: '/roadtooccitanie' },
@@ -7,7 +8,7 @@ const menu = [
     title: 'Billetterie',
     children: [
       { type: 'config', id: 'tickets' },
-      { type: 'config', id: 'tickets2'}
+      { type: 'config', id: 'tickets2' }
     ]
   },
   { type: 'config', id: 'tournaments' },
