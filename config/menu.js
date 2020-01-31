@@ -2,11 +2,11 @@ const menu = [
   { type: 'config', id: 'news' },
   {
     type: 'nolink',
-    color: '#FFFFFF',
-    title: 'Infos',
+    color: '#FF00FF',
+    title: 'Billetterie',
     children: [
       { type: 'config', id: 'tickets' },
-      { type: 'config', id: 'tickets' }
+      { type: 'config', id: 'tickets2' }
     ]
   },
   { type: 'config', id: 'tournaments' },

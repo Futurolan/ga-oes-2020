@@ -54,7 +54,27 @@ const config = {
     link: '/live'
   },
   tickets: {
-    title: 'Billetterie',
+    title: 'Joueurs',
+    description: 'Achetez vos places pour la Gamers Assembly Occitanie Edition',
+    link: '/billetterie',
+    pass: {
+      title: 'Pass Visiteur',
+      text: 'Pour acheter un pass "Visiteur Occitanie Esports" ou un pass "Visiteur ESL Pro League Occitanie", suivre le lien ci-dessous',
+      button: 'Acheter un billet visiteur'
+    },
+    minor: {
+      title: 'Informations pour les mineurs',
+      text: 'Vous devez télécharger l\'autorisation parentale, l\'imprimer, la remplir et l\'apporter le jour de votre venue avec votre billet.',
+      button: 'Télécharger l\'autorisation parentale (format pdf)'
+    },
+    rules: {
+      title: 'Règlement intérieur',
+      text: 'L\'acquisition d\'un ticket entraîne l\'adhésion au règlement intérieur disponible ci-dessous.',
+      button: 'Télécharger le règlement intérieur (format pdf)'
+    }
+  },
+  tickets2: {
+    title: 'Visiteurs',
     description: 'Achetez vos places pour la Gamers Assembly Occitanie Edition',
     link: '/billetterie',
     pass: {
