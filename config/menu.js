@@ -1,5 +1,6 @@
 const menu = [
   { type: 'config', id: 'news' },
+  { type: 'page', title: 'Road to Occitanie', id: 199603, link: '/roadtooccitanie' }
   {
     type: 'nolink',
     color: '#FF00FF',
@@ -10,16 +11,7 @@ const menu = [
     ]
   },
   { type: 'config', id: 'tournaments' },
-  {
-    type: 'nolink',
-    title: 'Infos',
-    children: [
-      { type: 'config', id: 'info' }
-      // { type: 'external', title: 'Location', link: 'https://scoup-esport.fr/reservation/' }
-      // { type: 'page', title: 'Cosplay', id: 3569, link: '/cosplay' },
-      // { type: 'page', title: 'Région Occitanie', id: 3575, link: '/region' }
-    ]
-  },
+  { type: 'config', id: 'info' },
   //  { type: 'external', title: 'ESL Pro League', link: 'https://pro.eslgaming.com/occitanie/' },
   { type: 'config', id: 'partners' }
 ]
