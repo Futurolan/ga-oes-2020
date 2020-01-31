@@ -9,12 +9,13 @@ const config = {
     url: 'https://www.laregion.fr/'
   },
   home: {
-    // hero: {
-    //   title: 'Gamers Assembly',
-    //   subtitle: 'Dev Front',
-    //   background: '/static/img/bg-blue-area.jpg'
-    // },
-    banner: '/static/img/oes.jpg',
+    hero: {
+      title: 'Gamers Assembly',
+      subtitle: 'Occitanie Edition 2020',
+      background: '/static/img/bg-blue-area.jpg',
+      backgroundVideo: 'https://www.esl-one.com/csgo/cologne/wp-content/uploads/2019/09/bg_clip_cologne20.mp4'
+    },
+    // banner: '/static/img/oes.jpg',
     twitterAccount: 'OccitanieEsport',
     partners: {
       active: false,
