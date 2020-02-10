@@ -14,6 +14,10 @@ const menu = [
       { type: 'page', title: '9 mai - Toulouse', id: 199709, link: '/toulouse' }
     ]
   },
+  { type: 'config', id: 'tournaments' },
+  { type: 'config', id: 'info' },
+  //  { type: 'external', title: 'ESL Pro League', link: 'https://pro.eslgaming.com/occitanie/' },
+  { type: 'config', id: 'partners' },
   {
     type: 'nolink',
     color: '#FF00FF',
@@ -22,11 +26,7 @@ const menu = [
       { type: 'config', id: 'tickets' },
       { type: 'config', id: 'staticTickets' }
     ]
-  },
-  { type: 'config', id: 'tournaments' },
-  { type: 'config', id: 'info' },
-  //  { type: 'external', title: 'ESL Pro League', link: 'https://pro.eslgaming.com/occitanie/' },
-  { type: 'config', id: 'partners' }
+  }
 ]
 
 module.exports = menu
