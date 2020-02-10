@@ -1,7 +1,7 @@
 const config = {
-  title: 'Gamers Assembly : Occitanie Edition',
+  title: 'Occitanie Esport 2020',
   logo: '/static/img/logo_ga_oes.png',
-  description: 'La Gamers Assembly Occitanie Edition aura lieu du 30 au 31 mai 2020 !',
+  description: 'L\'Occitanie Esport 2020 aura lieu du 30 au 31 mai 2020 !',
   metaImagePath: '/static/img/logo_ga_oes.png',
   gaTrackingId: 'UA-128777022-10',
   mainPartner: {
@@ -10,8 +10,8 @@ const config = {
   },
   home: {
     hero: {
-      title: 'Gamers Assembly',
-      subtitle: 'Occitanie Edition 2020',
+      title: 'Occitanie Esport 2020',
+      // subtitle: '',
       background: '/static/img/bg-blue-area.jpg',
       backgroundVideo: 'https://www.esl-one.com/csgo/cologne/wp-content/uploads/2019/09/bg_clip_cologne20.mp4'
     },
@@ -25,7 +25,7 @@ const config = {
   },
   news: {
     title: 'Actualités',
-    description: 'Retrouvez toutes les actualités de la Gamers Assembly Occitanie Edition',
+    description: 'Retrouvez toutes les actualités de l\'Occitanie Esport 2020',
     link: '/news'
   },
   partners: {
@@ -35,12 +35,12 @@ const config = {
   },
   tournaments: {
     title: 'Tournois',
-    description: 'Tous les tournois de la Gamers Assembly Occitanie Edition',
+    description: 'Tous les tournois de l\'Occitanie Esport 2020',
     link: '/tournois'
   },
   info: {
     title: 'Infos pratiques',
-    description: 'Toutes les informations sur la Gamers Assembly Occitanie Edition',
+    description: 'Toutes les informations sur l\'Occitanie Esport 2020',
     link: '/infos'
   },
   schedule: {
@@ -55,7 +55,7 @@ const config = {
   },
   tickets: {
     title: 'Joueurs',
-    description: 'Achetez vos places pour la Gamers Assembly Occitanie Edition',
+    description: 'Achetez vos places pour la Gamers Assembly : Occitanie Edition',
     link: '/billetterie',
     pass: {
       title: 'Pass Visiteur',
@@ -73,39 +73,25 @@ const config = {
       button: 'Télécharger le règlement intérieur (format pdf)'
     }
   },
-  tickets2: {
+  staticTickets: {
     title: 'Visiteurs',
-    description: 'Achetez vos places pour la Gamers Assembly Occitanie Edition',
-    link: '/billetterie',
-    pass: {
-      title: 'Pass Visiteur',
-      text: 'Pour acheter un pass "Visiteur Occitanie Esports" ou un pass "Visiteur ESL Pro League Occitanie", suivre le lien ci-dessous',
-      button: 'Acheter un billet visiteur'
-    },
-    minor: {
-      title: 'Informations pour les mineurs',
-      text: 'Vous devez télécharger l\'autorisation parentale, l\'imprimer, la remplir et l\'apporter le jour de votre venue avec votre billet.',
-      button: 'Télécharger l\'autorisation parentale (format pdf)'
-    },
-    rules: {
-      title: 'Règlement intérieur',
-      text: 'L\'acquisition d\'un ticket entraîne l\'adhésion au règlement intérieur disponible ci-dessous.',
-      button: 'Télécharger le règlement intérieur (format pdf)'
-    }
+    iframeUrl: 'https://www.google.fr',
+    description: 'Achetez vos places visiteurs pour l\'Occitanie Esport 2020',
+    link: '/billetterie-visiteurs'
   },
   exhibitors: {
     title: 'Exposants',
-    description: 'Les exposants que vous pourrez retrouver à la Gamers Assembly Occitanie Edition',
+    description: 'Les exposants que vous pourrez retrouver à l\'Occitanie Esport 2020',
     link: '/exposants'
   },
   family: {
     title: 'Espace Famille',
-    description: 'Les activités à faire en famille durant la Gamers Assembly Occitanie Edition',
+    description: 'Les activités à faire en famille durant l\'Occitanie Esport 2020',
     link: '/espace-famille'
   },
   influencers: {
     title: 'VIPs',
-    description: 'Les personnalités qui seront présentes pour la Gamers Assembly Occitanie Edition',
+    description: 'Les personnalités qui seront présentes pour l\'Occitanie Esport 2020',
     link: '/vips'
   },
   contact: {
@@ -123,16 +109,16 @@ const config = {
   recruit: {
     active: false,
     title: 'Recrutement',
-    description: 'Devenir bénévole pour la GAMERS ASSEMBLY, c\'est par ici !!!',
+    description: 'Devenir bénévole pour l\'Occitanie Esport 2020, c\'est par ici !!!',
     formUrl: 'https://goo.gl/forms/84pHQfSp50RcuUel2'
   },
   social: {
-    twitter: 'https://twitter.com/GamersAssembly',
-    facebook: 'https://www.facebook.com/GamersAssembly',
-    twitch: 'https://twitch.tv/gamers_assembly',
-    youtube: 'https://www.youtube.com/channel/UCbfhRIAsc4xdRACnDUwRfRw',
-    flickr: 'https://www.flickr.com/photos/futurolan',
-    discord: 'https://discordapp.com/invite/gamersassembly'
+    twitter: 'https://twitter.com/OccitanieEsport',
+    facebook: 'https://www.facebook.com/OccitanieEsports',
+    // twitch: 'https://twitch.tv/gamers_assembly',
+    // youtube: 'https://www.youtube.com/channel/UCbfhRIAsc4xdRACnDUwRfRw',
+    // flickr: 'https://www.flickr.com/photos/futurolan',
+    discord: 'https://discord.me/occitanieesports'
   }
 }
 
