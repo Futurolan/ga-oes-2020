@@ -96,7 +96,7 @@ const config = {
   },
   contact: {
     active: true,
-    pageId: 6
+    pageId: 199742
   },
   press: {
     active: false,
