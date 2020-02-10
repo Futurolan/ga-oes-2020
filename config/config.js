@@ -2,7 +2,7 @@ const config = {
   title: 'Occitanie Esport 2020',
   logo: '/static/img/logo_ga_oes.png',
   description: 'L\'Occitanie Esport 2020 aura lieu du 30 au 31 mai 2020 !',
-  metaImagePath: '/static/img/logo_ga_oes.png',
+  metaImagePath: '/static/img/oes_100x100.png',
   gaTrackingId: 'UA-128777022-10',
   mainPartner: {
     logo: '/static/img/logo-occitanie-238x106.png',
