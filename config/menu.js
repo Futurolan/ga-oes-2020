@@ -20,7 +20,7 @@ const menu = [
     title: 'Billetterie',
     children: [
       { type: 'config', id: 'tickets' },
-      { type: 'config', id: 'tickets2' }
+      { type: 'config', id: 'staticTickets' }
     ]
   },
   { type: 'config', id: 'tournaments' },
