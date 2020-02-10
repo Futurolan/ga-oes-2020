@@ -3,11 +3,11 @@ const menu = [
   { type: 'config', id: 'news' },
   {
     type: 'page',
-    title: 'Road to Occitanie',
+    title: 'OES Charity Tour',
     id: 199603,
-    link: '/roadtooccitanie',
+    link: '/oes-charity-tour',
     children: [
-      { type: 'page', title: 'Road to Occitanie', id: 199603, link: '/roadtooccitanie' },
+      { type: 'page', title: 'OES Charity Tour', id: 199603, link: '/oes-charity-tour' },
       { type: 'page', title: '28 mars - Nîmes', id: 199706, link: '/nimes' },
       { type: 'page', title: '18 avril - Tarbes', id: 199707, link: '/tarbes' },
       { type: 'page', title: '18 avril - Albi', id: 199708, link: '/albi' },
