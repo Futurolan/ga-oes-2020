@@ -21,10 +21,11 @@ const menu = [
   {
     type: 'nolink',
     backgroundColor: '#f9dc00',
+    color: '#ab080e',
     title: 'Billetterie',
     children: [
-      { type: 'config', backgroundColor: '#f9dc00', id: 'tickets' },
-      { type: 'config', backgroundColor: '#f9dc00', id: 'staticTickets' }
+      { type: 'config', backgroundColor: '#f9dc00', color: '#ab080e', id: 'tickets' },
+      { type: 'config', backgroundColor: '#f9dc00', color: '#ab080e', id: 'staticTickets' }
     ]
   }
 ]
