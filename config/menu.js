@@ -20,7 +20,7 @@ const menu = [
   { type: 'config', id: 'partners' },
   {
     type: 'nolink',
-    color: '#FF00FF',
+    color: '#f9dc00',
     title: 'Billetterie',
     children: [
       { type: 'config', id: 'tickets' },
