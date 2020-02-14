@@ -13,7 +13,7 @@ const config = {
       title: 'Occitanie Esport 2020',
       // subtitle: '',
       background: '/static/img/bg-blue-area.jpg',
-      backgroundVideo: 'https://www.esl-one.com/csgo/cologne/wp-content/uploads/2019/09/bg_clip_cologne20.mp4'
+      backgroundVideo: '/static/vid/oes-teaser-resized.mp4'
     },
     // banner: '/static/img/oes.jpg',
     twitterAccount: 'OccitanieEsport',
