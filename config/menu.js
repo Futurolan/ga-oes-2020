@@ -19,9 +19,9 @@ const menu = [
     title: 'Infos',
     children: [
       { type: 'config', id: 'info' },
-      { type: 'page', title: 'Hébergement', id: 199920 },
-      { type: 'page', title: 'Comment s\'inscrire', id: 199922 },
-      { type: 'page', title: 'Location de matériel', id: 199921 }
+      { type: 'page', title: 'Hébergement', id: 199920, link: '/hebergement' },
+      { type: 'page', title: 'Comment s\'inscrire', id: 199922, link: '/inscription' },
+      { type: 'page', title: 'Location de matériel', id: 199921, link: '/location' }
     ]
   },
   //  { type: 'external', title: 'ESL Pro League', link: 'https://pro.eslgaming.com/occitanie/' },
