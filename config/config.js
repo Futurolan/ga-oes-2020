@@ -24,7 +24,7 @@ const config = {
     }
   },
   news: {
-    title: 'Actualités',
+    title: 'News',
     description: 'Retrouvez toutes les actualités de l\'Occitanie Esport 2020',
     link: '/news'
   },
