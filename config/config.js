@@ -1,8 +1,8 @@
 const config = {
   title: 'Occitanie Esport 2020',
-  logo: '/static/img/oesga.png',
+  logo: '/static/img/oes_100x100.png',
   description: 'L\'Occitanie Esport 2020 aura lieu du 30 au 31 mai 2020 !',
-  metaImagePath: '/static/img/oesga.png',
+  metaImagePath: '/static/img/oes_100x100.png',
   gaTrackingId: 'UA-128777022-10',
   mainPartner: {
     logo: '/static/img/logo-occitanie-238x106.png',
@@ -118,7 +118,8 @@ const config = {
     // twitch: 'https://twitch.tv/gamers_assembly',
     // youtube: 'https://www.youtube.com/channel/UCbfhRIAsc4xdRACnDUwRfRw',
     // flickr: 'https://www.flickr.com/photos/futurolan',
-    discord: 'https://discord.me/occitanieesports'
+    discord: 'https://discord.me/occitanieesports',
+    instagram: 'https://www.instagram.com/occitanie_esports/'
   }
 }
 
