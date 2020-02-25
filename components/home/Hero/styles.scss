@@ -19,7 +19,7 @@
       min-height: 100%;
       max-width: none;
       z-index: 0;
-      translateX(calc((100% - 100vw) / 2));
+      transform: translateX(calc((100% - 100vw) / 2));
     }
   }
 }
