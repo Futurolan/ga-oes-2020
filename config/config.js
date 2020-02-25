@@ -12,7 +12,7 @@ const config = {
     hero: {
       title: 'Occitanie Esport 2020',
       // subtitle: '',
-      background: '/static/img/bg-blue-area.jpg',
+      background: '/static/img/oes_bg.jpg',
       backgroundVideo: '/static/vid/oes-teaser-resized.mp4'
     },
     // banner: '/static/img/oes.jpg',
