@@ -56,7 +56,7 @@ const config = {
   tickets: {
     title: 'Joueurs',
     description: 'Achetez vos places pour la Gamers Assembly : Occitanie Edition',
-    link: '/billetterie',
+    link: '/joueurs',
     pass: {
       title: 'Pass Visiteur',
       text: 'Pour acheter un pass "Visiteur Occitanie Esports" ou un pass "Visiteur ESL Pro League Occitanie", suivre le lien ci-dessous',
@@ -77,7 +77,7 @@ const config = {
     title: 'Visiteurs',
     iframeUrl: 'https://www.ticketmaster.fr/fr/liste/occitanie-esport-2020-billet/idlist/20/idtier/21993963',
     description: 'Achetez vos places visiteurs pour l\'Occitanie Esports 2020',
-    link: '/billetterie-visiteurs'
+    link: '/visiteurs'
   },
   exhibitors: {
     title: 'Exposants',
