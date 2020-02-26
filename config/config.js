@@ -1,7 +1,7 @@
 const config = {
-  title: 'Occitanie Esport 2020',
+  title: 'Occitanie Esports 2020',
   logo: '/static/img/oes_100x100.png',
-  description: 'L\'Occitanie Esport 2020 aura lieu du 30 au 31 mai 2020 !',
+  description: 'L\'Occitanie Esports 2020 aura lieu du 30 au 31 mai 2020 !',
   metaImagePath: '/static/img/oes_100x100.png',
   gaTrackingId: 'UA-128777022-10',
   mainPartner: {
@@ -10,7 +10,7 @@ const config = {
   },
   home: {
     hero: {
-      title: 'Occitanie Esport 2020',
+      title: 'Occitanie Esports 2020',
       // subtitle: '',
       background: '/static/img/oes_bg.jpg',
       backgroundVideo: '/static/vid/oes-teaser-resized.mp4'
@@ -25,7 +25,7 @@ const config = {
   },
   news: {
     title: 'News',
-    description: 'Retrouvez toutes les actualités de l\'Occitanie Esport 2020',
+    description: 'Retrouvez toutes les actualités de l\'Occitanie Esports 2020',
     link: '/news'
   },
   partners: {
@@ -35,12 +35,12 @@ const config = {
   },
   tournaments: {
     title: 'Tournois',
-    description: 'Tous les tournois de l\'Occitanie Esport 2020',
+    description: 'Tous les tournois de l\'Occitanie Esports 2020',
     link: '/tournois'
   },
   info: {
     title: 'Infos pratiques',
-    description: 'Toutes les informations sur l\'Occitanie Esport 2020',
+    description: 'Toutes les informations sur l\'Occitanie Esports 2020',
     link: '/infos'
   },
   schedule: {
@@ -76,22 +76,22 @@ const config = {
   staticTickets: {
     title: 'Visiteurs',
     iframeUrl: 'https://www.ticketmaster.fr/fr/liste/occitanie-esport-2020-billet/idlist/20/idtier/21993963',
-    description: 'Achetez vos places visiteurs pour l\'Occitanie Esport 2020',
+    description: 'Achetez vos places visiteurs pour l\'Occitanie Esports 2020',
     link: '/billetterie-visiteurs'
   },
   exhibitors: {
     title: 'Exposants',
-    description: 'Les exposants que vous pourrez retrouver à l\'Occitanie Esport 2020',
+    description: 'Les exposants que vous pourrez retrouver à l\'Occitanie Esports 2020',
     link: '/exposants'
   },
   family: {
     title: 'Espace Famille',
-    description: 'Les activités à faire en famille durant l\'Occitanie Esport 2020',
+    description: 'Les activités à faire en famille durant l\'Occitanie Esports 2020',
     link: '/espace-famille'
   },
   influencers: {
     title: 'VIPs',
-    description: 'Les personnalités qui seront présentes pour l\'Occitanie Esport 2020',
+    description: 'Les personnalités qui seront présentes pour l\'Occitanie Esports 2020',
     link: '/vips'
   },
   contact: {
@@ -109,7 +109,7 @@ const config = {
   recruit: {
     active: false,
     title: 'Recrutement',
-    description: 'Devenir bénévole pour l\'Occitanie Esport 2020, c\'est par ici !!!',
+    description: 'Devenir bénévole pour l\'Occitanie Esports 2020, c\'est par ici !!!',
     formUrl: 'https://goo.gl/forms/84pHQfSp50RcuUel2'
   },
   social: {
