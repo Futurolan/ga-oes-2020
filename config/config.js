@@ -75,7 +75,7 @@ const config = {
   },
   staticTickets: {
     title: 'Visiteurs',
-    iframeUrl: 'https://www.google.fr',
+    iframeUrl: 'https://www.ticketmaster.fr/fr/liste/occitanie-esport-2020-billet/idlist/20/idtier/21993963',
     description: 'Achetez vos places visiteurs pour l\'Occitanie Esport 2020',
     link: '/billetterie-visiteurs'
   },
