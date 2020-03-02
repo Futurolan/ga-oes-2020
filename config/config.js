@@ -35,7 +35,7 @@ const config = {
   },
   tournaments: {
     title: 'Tournois',
-    navTitle: '<img src="/static/img/tournoisga.png" style="max-height:none">',    
+    navTitle: '<img src="/static/img/tournoisga.png" style="max-height:none">',
     description: 'Tous les tournois de l\'Occitanie Esports 2020',
     notification: '<div class="columns is-vcentered has-text-centered"><div class="column is-2"><img src="/static/img/logo_ga_oes.png"></div><div class="column">Il ne peut pas y avoir d\'Occitanie Esports sans sa Gamers Assembly et son lot de tournois !<br>Voici donc tous les tournois aussi esports et fun les uns que les autres mais surtout le plus important : des tournois GA certified.</div></div>',
     link: '/tournois'
