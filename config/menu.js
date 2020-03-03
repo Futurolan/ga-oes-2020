@@ -13,7 +13,7 @@ const menu = [
       { type: 'page', title: '9 mai - Toulouse', id: 199709, link: '/toulouse' }
     ]
   },
-  { type: 'config', id: 'tournaments' },
+  // { type: 'config', id: 'tournaments' },
   {
     type: 'nolink',
     title: 'Infos',
