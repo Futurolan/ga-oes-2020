@@ -25,15 +25,15 @@ const menu = [
     ]
   },
   { type: 'config', id: 'partners' }
-  // {
-    // type: 'nolink',
-    // color: '#f9dc00',
-    // title: 'Billetterie',
-    // children: [
-      // { type: 'config', color: '#f9dc00', id: 'tickets' },
-      // { type: 'config', color: '#f9dc00', id: 'staticTickets' }
-    // ]
-  // }
+  {
+    type: 'nolink',
+    color: '#f9dc00',
+    title: 'Billetterie',
+    children: [
+      { type: 'config', color: '#f9dc00', id: 'tickets' },
+      { type: 'config', color: '#f9dc00', id: 'staticTickets' }
+    ]
+  }
 ]
 
 module.exports = menu
