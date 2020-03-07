@@ -8,7 +8,7 @@ import './styles.scss'
 
 function StaticTicketContent () {
   return (
-    <script type='text/javascript' src='https://embed.ticketmaster.com/tm.js'></script>
+    <script type='text/javascript' src='https://embed.ticketmaster.com/tm.js' />
     <div className='ga-static-ticket-content '>
       <h1 className='title title-line has-text-centered'><span>{config.staticTickets.title}</span></h1>
       <div className='columns is-multiline'>
