@@ -61,7 +61,7 @@ const config = {
     link: '/joueurs',
     pass: {
       title: 'Pass Visiteur',
-      text: 'Pour acheter un pass "Visiteur Occitanie Esports" ou un pass "Visiteur ESL Pro League Occitanie", suivre le lien ci-dessous',
+      text: 'Pour acheter un pass "Visiteur Occitanie Esports", cliquer le lien ci-dessous',
       button: 'Acheter un billet visiteur'
     },
     minor: {
