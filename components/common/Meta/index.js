@@ -31,6 +31,7 @@ const Meta = (props) => {
       <meta property='og:site_name' content={title} />
       <meta property='og:locale' content='fr_FR' />
       <meta property='og:type' content='website' />
+      <script type='text/javascript' src='https://embed.ticketmaster.com/tm.js' />
     </Head>
   )
 }
