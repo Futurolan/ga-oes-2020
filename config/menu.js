@@ -24,7 +24,7 @@ const menu = [
       // { type: 'page', title: 'Location de matériel', id: 199921, link: '/location' }
     ]
   },
-  { type: 'config', id: 'partners' }
+  { type: 'config', id: 'partners' },
   {
     type: 'nolink',
     color: '#f9dc00',
